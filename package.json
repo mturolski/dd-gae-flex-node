@@ -1,0 +1,14 @@
+{
+  "name": "dd-gae-flex-node",
+  "version": "1.0.0",
+  "description": "Datadog on Google App Engine Flexible - Node.js example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "dd-trace": "latest",
+    "express": "^4.18.0"
+  }
+}
