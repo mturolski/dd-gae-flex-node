@@ -113,14 +113,6 @@ curl "https://YOUR_APP_URL/?q=<script>alert(1)</script>"
 
 Check **Security → Signals** in Datadog within a few minutes.
 
-## Key Differences vs Python Version
-
-| | Python | Node.js |
-|---|---|---|
-| APM library | `ddtrace` + `patch_all()` | `dd-trace` initialized first |
-| App start | `ddtrace-run gunicorn` | `node server.js` |
-| Logging | `python-json-logger` | `bunyan` |
-| Trace correlation | Manual `DatadogTraceFilter` | `logInjection: true` in `dd-trace` init |
 
 ## Known Limitations
 
