@@ -105,14 +105,6 @@ AppSec is enabled via `DD_APPSEC_ENABLED=true` in `app.yaml` combined with `dd-t
 | Vulnerabilities (IAST) | Security → Vulnerabilities |
 | SCA / SBOM | Security → Software Composition Analysis |
 
-## Testing AppSec
-
-```bash
-curl "https://YOUR_APP_URL/?q=<script>alert(1)</script>"
-```
-
-Check **Security → Signals** in Datadog within a few minutes.
-
 
 ## Known Limitations
 
